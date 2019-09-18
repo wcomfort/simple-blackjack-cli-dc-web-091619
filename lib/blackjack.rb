@@ -38,6 +38,7 @@ def hit?(sum)
     new_hand = deal_card
     sum = sum + new_hand 
   else 
+    prompt_user
     invalid_command
     prompt_user
   end 
